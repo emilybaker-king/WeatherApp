@@ -46,8 +46,11 @@ class WeatherDisplayViewController: UIViewController {
             case .success(let value):
                 //if our request succeeds, take the value and convert it into a JSON object
                 let json = JSON(value)
-                //print out the JSON object
-                print(json)
+                let exampleWeatherData = WeatherData(json: json)
+                print(exampleWeatherData?.temperature)
+                print(exampleWeatherData?.highTemperature)
+                print(exampleWeatherData?.lowTemperature)
+                print(exampleWeatherData?.condition.icon)
             case .failure(let error):
                 print(error.localizedDescription)
             }
