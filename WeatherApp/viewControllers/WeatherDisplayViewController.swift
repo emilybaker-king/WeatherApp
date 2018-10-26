@@ -27,6 +27,7 @@ class WeatherDisplayViewController: UIViewController {
         
         setUpDefaultUI()
         
+        
         let apiKeys = APIKeys()
         
         let darkSkyURL = "https://api.darksky.net/forecast/"
