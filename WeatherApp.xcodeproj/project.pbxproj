@@ -16,6 +16,7 @@
 		B7DBDD5C218388BB00951B7F /* LocationSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DBDD5B218388BB00951B7F /* LocationSelectorViewController.swift */; };
 		B7DBDD6221838FCB00951B7F /* weatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DBDD6121838FCB00951B7F /* weatherData.swift */; };
 		B7DBDD6421838FDA00951B7F /* geocodingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DBDD6321838FDA00951B7F /* geocodingData.swift */; };
+		B7DBDD6621874D6000951B7F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DBDD6521874D6000951B7F /* APIManager.swift */; };
 		DB63BA024762DB825FE6F3BB /* Pods_WeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC43701C4CBE6F952ECD9FCC /* Pods_WeatherApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		B7DBDD5B218388BB00951B7F /* LocationSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSelectorViewController.swift; sourceTree = "<group>"; };
 		B7DBDD6121838FCB00951B7F /* weatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherData.swift; sourceTree = "<group>"; };
 		B7DBDD6321838FDA00951B7F /* geocodingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geocodingData.swift; sourceTree = "<group>"; };
+		B7DBDD6521874D6000951B7F /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		CC43701C4CBE6F952ECD9FCC /* Pods_WeatherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				B7272A3B218236FF0010351B /* APIKeys.swift */,
+				B7DBDD6521874D6000951B7F /* APIManager.swift */,
 			);
 			path = utilities;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				B72971352180FE3100698FB0 /* WeatherDisplayViewController.swift in Sources */,
 				B72971332180FE3100698FB0 /* AppDelegate.swift in Sources */,
 				B7DBDD6421838FDA00951B7F /* geocodingData.swift in Sources */,
+				B7DBDD6621874D6000951B7F /* APIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

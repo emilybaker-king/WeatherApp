@@ -46,7 +46,7 @@ class GeocodingData {
     //failable convenience initializer for breaking down data from JSON and create GeocodingData
     convenience init?(json: JSON) {
         
-        guard let results = json[GeocodingDataKeys.results.rawValue][0].array else {
+        guard let results = json[GeocodingDataKeys.results.rawValue].array else {
             return nil
         }
         
